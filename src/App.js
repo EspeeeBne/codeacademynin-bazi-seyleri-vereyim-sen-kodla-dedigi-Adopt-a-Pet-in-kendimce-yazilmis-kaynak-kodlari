@@ -25,7 +25,12 @@ const appRouter = createBrowserRouter(
 
 function App() {
   return (
+    <>
     <RouterProvider router={appRouter} />
+      <div style={{ position: 'fixed', bottom: 0, right: 0, padding: '10px', fontSize: '12px', opacity: 0.7 }}>
+        created by EspeeeBne
+      </div>
+    </>
   );
 }
 
